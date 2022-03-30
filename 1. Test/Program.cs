@@ -65,9 +65,3 @@ Console.WriteLine();
 Console.WriteLine("Bin Fertig, ich komme gleich :-)");
 
 
-
-
-
-
-
-//Ich habe eine tolle Änderunge gemacht-
