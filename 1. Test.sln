@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Test", "1. Test\1. Test.csproj", "{61CD0C00-137D-46B6-9293-DED593017C26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Userinput", "Userinput\Userinput.csproj", "{080343FB-BC90-4279-AE90-F53539E23965}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{61CD0C00-137D-46B6-9293-DED593017C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61CD0C00-137D-46B6-9293-DED593017C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61CD0C00-137D-46B6-9293-DED593017C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080343FB-BC90-4279-AE90-F53539E23965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080343FB-BC90-4279-AE90-F53539E23965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080343FB-BC90-4279-AE90-F53539E23965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080343FB-BC90-4279-AE90-F53539E23965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

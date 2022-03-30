@@ -65,3 +65,13 @@ Console.WriteLine();
 Console.WriteLine("Bin Fertig, ich komme gleich :-)");
 
 
+
+Console.WriteLine("5"+"5")     // Hier erkennt sich selber dass ist ein String ist und ergibt dann -> 55
+
+Console.WriteLine(5+5);        // Hier erkennt sich selber dass ist eine Int ist und ergibt dann -> 10
+
+
+
+
+
+string Userinput = Console.ReadLine();
