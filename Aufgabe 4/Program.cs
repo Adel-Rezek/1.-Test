@@ -62,4 +62,3 @@ Console.WriteLine($"4. division -> Ergibnis ist: {ersterZahlAlsInt} / {zweiterza
 double ergibnis5 = ersterZahlAlsInt % zweiterzahlAlsInt;
 Console.WriteLine($"5. Modulo -> Ergibnis ist: {ersterZahlAlsInt} % {zweiterzahlAlsInt} = {ergibnis5}");
 
-

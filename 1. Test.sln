@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else-Rechnungen", "if-el
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch Ttatment (if) - Ternary Operator (if)", "Switch Ttatment (if) - Ternary Operator (if)\Switch Ttatment (if) - Ternary Operator (if).csproj", "{D66592CB-70D1-47B2-AFC4-CA6D87AD591E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop Basis", "Loop Basis\Loop Basis.csproj", "{4CD5C9E8-8F3D-4DD4-96F3-463D4CD26028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{D66592CB-70D1-47B2-AFC4-CA6D87AD591E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D66592CB-70D1-47B2-AFC4-CA6D87AD591E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D66592CB-70D1-47B2-AFC4-CA6D87AD591E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD5C9E8-8F3D-4DD4-96F3-463D4CD26028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD5C9E8-8F3D-4DD4-96F3-463D4CD26028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD5C9E8-8F3D-4DD4-96F3-463D4CD26028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD5C9E8-8F3D-4DD4-96F3-463D4CD26028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

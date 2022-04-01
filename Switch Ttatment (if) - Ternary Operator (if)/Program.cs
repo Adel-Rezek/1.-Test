@@ -10,8 +10,10 @@ Console.WriteLine();
 switch (tempAlsDouble)
 {
     case > 0:
-    case < 30:
         Console.WriteLine("angenehm");
+        break;
+    case < 30:
+        Console.WriteLine("Programm fertig");
         break;
     default:
         Console.WriteLine("Programm fertig");
