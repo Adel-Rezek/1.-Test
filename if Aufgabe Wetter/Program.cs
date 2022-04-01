@@ -1,22 +1,36 @@
-﻿int warm = 30;
-int kalt = 2;
+﻿//int warm = 30;
+//int kalt = 2;
 
-int aktuelleTemperatur = 40;
+Console.Write($"Es ist jetzt: ");
+string aktuelleTemperatur = Console.ReadLine();
+//int aktuelleTemperaturAlsInt = int.Parse(aktuelleTemperatur);
 
-string wetterZustand;
-string regenschirmGebrauch;
 
-if (aktuelleTemperatur < 25)
+ bool isConvertToIntSuccess = int.TryParse(aktuelleTemperatur, out int aktuelleTemperaturAlsInt);
+
+
+if (isConvertToIntSuccess)
 {
-    regenschirmGebrauch = "einen";
-    wetterZustand = "Regenerisch";
+    string wetterZustand;
+    string regenschirmGebrauch;
+
+    if (aktuelleTemperaturAlsInt <= 25)
+    {
+        regenschirmGebrauch = "einen";
+        wetterZustand = "regenerisch";
+    }
+    else
+    {
+        regenschirmGebrauch = "keinen";
+        wetterZustand = "sonnig";
+    }
+
+    Console.WriteLine($"Heute ist es {wetterZustand} du brauchst {regenschirmGebrauch} Regenschirm die Temperatur ist {aktuelleTemperaturAlsInt}°C");
 }
 else
 {
-    regenschirmGebrauch = "keinen";
-    wetterZustand = "Sonnig";
+    Console.WriteLine("Du sollte eine Zahl eingeben depp!");
 }
-
 
 
 
@@ -32,7 +46,7 @@ Console.WriteLine();
 
 //String Interpolation:
 
-Console.WriteLine($"Heute ist es {wetterZustand} du brauchst {regenschirmGebrauch} Regenschirm die Temperatur ist {aktuelleTemperatur}°C");
+
 
 //Console.WriteLine($"Heute ist es {WetterZustandRegenrisch} du brauchst {RegenschirmKaltesWetter} Regenschirm die Temperator ist {kalt}°C");
 
@@ -51,3 +65,4 @@ Console.WriteLine($"Heute ist es {wetterZustand} du brauchst {regenschirmGebrauc
 
 
 //string Userinput = Console.ReadLine();
+
