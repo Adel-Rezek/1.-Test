@@ -32,7 +32,7 @@ if (isConvertToIntSuccses1 && isConvertToIntSucsess2)
     }
     else
     {
-        Console.WriteLine("Die Devision Rechnung kann nicht durchgeführt werden, weil die 2.Zahl Darf nicht 0 sein, sonst eine andere Zahl");
+        Console.WriteLine("Die Devision Rechnung kann nicht durchgeführt werden, weil die 2.Zahl darf nicht 0 sein, sonst eine andere Zahl");
     }
 }
 else
@@ -43,6 +43,7 @@ Console.WriteLine();
 
 
 
+//Beispiel:
 
 int temper = 33;
 
@@ -55,7 +56,7 @@ if (22 > temper)
 }
 else
 {
-    tolleWeternachricht = "Viel zu heeeeß!";
+    tolleWeternachricht = "Viel zu heeeeiß!";
 }
 
 switch(temper) //Switch Statement
