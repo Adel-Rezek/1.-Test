@@ -1,20 +1,31 @@
-﻿string ersterZahl = String.Empty;
+﻿
 
-string zweiterzahl = String.Empty;
+string userInput = String.Empty;
+int counter = 0;
+double sum = 0;
 
-
-while (true)
-      
+do
 {
-   
+    Console.Write("Geben Sie einen Zahl ein: ");
+    userInput = Console.ReadLine();
 
-    ersterZahl = Console.ReadLine();
-    double ersterZahlAlsDouble = double.Parse(ersterZahl);
+    bool isUserInputCorrect = double.TryParse(userInput, out double userInputDouble);
+    if (isUserInputCorrect)
+    {
+        if (userInputDouble >= 0 && userInputDouble <= 6)
+        {
+            counter++;
+            sum += userInputDouble;
+            Console.WriteLine($"{userInputDouble} wurde addiert, es wurde {counter} Scores addiert, der aktuelle Durchschnitt ist: {sum / counter } ");
+        }
+        else
+        {
+            Console.WriteLine("Bitte geben Sie nur Zahlen zwichen 1 - 6 !");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Bitte geben Sie nur Zahlen ein und keine Buchstaben!");
+    }
+} while (userInput != "k");
 
-    zweiterzahl = Console.ReadLine();
-    double zwiterZahlAlsDouble = double.Parse(zweiterzahl);
-
-    double durchschnitt = (ersterZahlAlsDouble + zwiterZahlAlsDouble) / 2;
-    Console.WriteLine(durchschnitt);
-
-}

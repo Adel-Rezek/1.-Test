@@ -43,7 +43,7 @@ while (true)
     }
     else
     {
-        Console.WriteLine("Der Durch schnitt ist Ungültig");
+        Console.WriteLine("Der Durchschnitt ist Ungültig");
     }
     
     Console.WriteLine();
