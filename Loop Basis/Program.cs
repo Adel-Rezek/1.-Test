@@ -55,7 +55,7 @@ string ersteZahl =String.Empty;
 while (ersteZahl != "-1")
 {
     Console.Write("Geben Sie bitte den erste Zahl ein: ");
-     ersteZahl = Console.ReadLine();
+    ersteZahl = Console.ReadLine();
     double ersterZahlAlsInt = double.Parse(ersteZahl);
     Console.WriteLine();
     Console.Write("Geben Sie bitte den zweiter Zahl ein: ");

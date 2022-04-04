@@ -36,29 +36,29 @@ Console.Write("Geben Sie bitte den zweiter Zahl ein: ");
 string zweiteZahl = Console.ReadLine();
 Console.WriteLine();
 
-double ersterZahlAlsInt = double.Parse(ersteZahl);
-double zweiterzahlAlsInt = double.Parse(zweiteZahl);
+double ersterZahlAlsDouble = double.Parse(ersteZahl);
+double zweiterzahlAlDouble = double.Parse(zweiteZahl);
 
-double ergibnis1 = ersterZahlAlsInt + zweiterzahlAlsInt;
-Console.WriteLine($"1. addieren -> Ergibnis ist: {ersterZahlAlsInt} + {zweiterzahlAlsInt} = {ergibnis1}");
+double ergibnis1 = ersterZahlAlsDouble + zweiterzahlAlDouble;
+Console.WriteLine($"1. addieren -> Ergibnis ist: {ersterZahlAlsDouble} + {zweiterzahlAlDouble} = {ergibnis1}");
 Console.WriteLine();
 
 
-double ergibnis2 = ersterZahlAlsInt - zweiterzahlAlsInt;
-Console.WriteLine($"2. substrahieren -> Ergibnis ist: {ersterZahlAlsInt} - {zweiterzahlAlsInt} = {ergibnis2}");
+double ergibnis2 = ersterZahlAlsDouble - zweiterzahlAlDouble;
+Console.WriteLine($"2. substrahieren -> Ergibnis ist: {ersterZahlAlsDouble} - {zweiterzahlAlDouble} = {ergibnis2}");
 Console.WriteLine();
 
 
-double ergibnis3 = ersterZahlAlsInt * zweiterzahlAlsInt;
-Console.WriteLine($"3. multiplizieren -> Ergibnis ist: {ersterZahlAlsInt} * {zweiterzahlAlsInt} = {ergibnis3}");
+double ergibnis3 = ersterZahlAlsDouble * zweiterzahlAlDouble;
+Console.WriteLine($"3. multiplizieren -> Ergibnis ist: {ersterZahlAlsDouble} * {zweiterzahlAlDouble} = {ergibnis3}");
 Console.WriteLine();
 
 
-double ergibnis4 = ersterZahlAlsInt / zweiterzahlAlsInt;
-Console.WriteLine($"4. division -> Ergibnis ist: {ersterZahlAlsInt} / {zweiterzahlAlsInt} = {ergibnis4}");
+double ergibnis4 = ersterZahlAlsDouble / zweiterzahlAlDouble;
+Console.WriteLine($"4. division -> Ergibnis ist: {ersterZahlAlsDouble} / {zweiterzahlAlDouble} = {ergibnis4}");
 
 
 
-double ergibnis5 = ersterZahlAlsInt % zweiterzahlAlsInt;
-Console.WriteLine($"5. Modulo -> Ergibnis ist: {ersterZahlAlsInt} % {zweiterzahlAlsInt} = {ergibnis5}");
+double ergibnis5 = ersterZahlAlsDouble % zweiterzahlAlDouble;
+Console.WriteLine($"5. Modulo -> Ergibnis ist: {ersterZahlAlsDouble} % {zweiterzahlAlDouble} = {ergibnis5}");
 

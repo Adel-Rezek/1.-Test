@@ -56,7 +56,7 @@ if (22 > temper)
 }
 else
 {
-    tolleWeternachricht = "Viel zu heeeeiß!";
+    tolleWeternachricht = "Viel zu heeeiß!";
 }
 
 switch(temper) //Switch Statement

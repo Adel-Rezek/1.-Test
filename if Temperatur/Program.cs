@@ -17,7 +17,7 @@
 //}
 //else
 //{
-//    Console.WriteLine($"es ist { wieVielGradAlsDouble}°C ,Dann gehe halt Nachhause");
+//    Console.WriteLine($"Es ist { wieVielGradAlsDouble}°C ,Dann gehe halt Nachhause");
 //}
 
 

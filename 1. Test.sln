@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "if UserName", "if UserName\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "if Aufgabe Wetter", "if Aufgabe Wetter\if Aufgabe Wetter.csproj", "{74FEC176-B3EE-4580-AB2A-CA86A0C831E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else-Rechnungen", "if-else-Rechnungen\if-else-Rechnungen.csproj", "{AC1A4949-EFE9-493A-908D-EF3E11FFE368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "if-else-Rechnungen", "if-else-Rechnungen\if-else-Rechnungen.csproj", "{AC1A4949-EFE9-493A-908D-EF3E11FFE368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch Ttatment (if) - Ternary Operator (if)", "Switch Ttatment (if) - Ternary Operator (if)\Switch Ttatment (if) - Ternary Operator (if).csproj", "{D66592CB-70D1-47B2-AFC4-CA6D87AD591E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch Ttatment (if) - Ternary Operator (if)", "Switch Ttatment (if) - Ternary Operator (if)\Switch Ttatment (if) - Ternary Operator (if).csproj", "{D66592CB-70D1-47B2-AFC4-CA6D87AD591E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loop Basis", "Loop Basis\Loop Basis.csproj", "{4CD5C9E8-8F3D-4DD4-96F3-463D4CD26028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop Basis", "Loop Basis\Loop Basis.csproj", "{4CD5C9E8-8F3D-4DD4-96F3-463D4CD26028}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average (Durchschnitt Berechnungen)", "Average (Durchschnitt Berechnungen)\Average (Durchschnitt Berechnungen).csproj", "{86B0410A-B65F-4836-8BCF-87457F5AE503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Average (Durchschnitt Berechnungen)", "Average (Durchschnitt Berechnungen)\Average (Durchschnitt Berechnungen).csproj", "{86B0410A-B65F-4836-8BCF-87457F5AE503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average 1", "Average 1\Average 1.csproj", "{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{86B0410A-B65F-4836-8BCF-87457F5AE503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86B0410A-B65F-4836-8BCF-87457F5AE503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86B0410A-B65F-4836-8BCF-87457F5AE503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
