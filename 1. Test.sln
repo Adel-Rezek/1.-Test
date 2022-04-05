@@ -29,7 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loop Basis", "Loop Basis\Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Average (Durchschnitt Berechnungen)", "Average (Durchschnitt Berechnungen)\Average (Durchschnitt Berechnungen).csproj", "{86B0410A-B65F-4836-8BCF-87457F5AE503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average 1", "Average 1\Average 1.csproj", "{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Average 1", "Average 1\Average 1.csproj", "{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aufgabe Sammlung", "Aufgabe Sammlung\Aufgabe Sammlung.csproj", "{EFADCFE7-764D-4CF5-ACDC-269B3A46DE02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klassen erstellen", "Klassen erstellen\Klassen erstellen.csproj", "{C523E29D-BB0C-4404-9772-AF6AF58F9EAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klassen Übung", "Klassen Übung\Klassen Übung.csproj", "{A1DD8795-8608-4ECB-9D28-733BA19669C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,18 @@ Global
 		{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{649A0E1E-E0F3-4D37-A0EF-C77C5F8E2A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFADCFE7-764D-4CF5-ACDC-269B3A46DE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFADCFE7-764D-4CF5-ACDC-269B3A46DE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFADCFE7-764D-4CF5-ACDC-269B3A46DE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFADCFE7-764D-4CF5-ACDC-269B3A46DE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C523E29D-BB0C-4404-9772-AF6AF58F9EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C523E29D-BB0C-4404-9772-AF6AF58F9EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C523E29D-BB0C-4404-9772-AF6AF58F9EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C523E29D-BB0C-4404-9772-AF6AF58F9EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DD8795-8608-4ECB-9D28-733BA19669C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DD8795-8608-4ECB-9D28-733BA19669C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DD8795-8608-4ECB-9D28-733BA19669C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DD8795-8608-4ECB-9D28-733BA19669C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,7 @@
 ﻿
 
 string userInput = String.Empty;
-int counter = 0;
+double counter = 0;
 double sum = 0;
 
 do
