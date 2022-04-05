@@ -8,7 +8,7 @@ public class Messgerät : Hardware
     }
     public void Gemessenespannung()
     {
-        Console.WriteLine($"Die Gemessenespannung ist: {Messung}");
+        Console.WriteLine($"Die Gemessenespannung ist: {Messung}.");
     }
 
 }

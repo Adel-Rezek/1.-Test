@@ -14,15 +14,15 @@ public class Hardware
     }
     public void Infos()
     {
-        Console.WriteLine($"Das Gerät ist ein {Name} hat IP-Adresse {IPAdresse} und Port-Nummer {Port} ");
+        Console.WriteLine($"Das Gerät ist ein {Name} hat IP-Adresse {IPAdresse} und Port-Nummer {Port}. ");
     }
     public void Reset()
     {
-        Console.WriteLine($"Das Gerät {Name} wurde neugestartet");
+        Console.WriteLine($"Das Gerät {Name} wurde neugestartet.");
     }
     public void DisplayText()
     {
-        Console.WriteLine($"Auf Display von Gerät {Name} erscheint Wort (Hallo)");
+        Console.WriteLine($"Auf Display von Gerät {Name} erscheint Wort (Hallo).");
     }
 
 }

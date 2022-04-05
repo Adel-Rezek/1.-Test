@@ -9,6 +9,6 @@ public class Netzteil : Hardware
     }
     public void Voltage()
     {
-        Console.WriteLine($"nach dem einschalten soll die Spannung auf {SetSpannung} eingestellt");
+        Console.WriteLine($"nach dem einschalten soll die Spannung auf {SetSpannung} eingestellt.");
     }
 }
