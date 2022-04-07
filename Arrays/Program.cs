@@ -36,7 +36,7 @@ int[,] bla =
 
 bla[0, 1] = 566;
 
-Console.WriteLine(bla[2,0]);
+Console.WriteLine(bla[2, 0]);
 
 
 for (int i = 0; i < bla.GetLength(0); i++)

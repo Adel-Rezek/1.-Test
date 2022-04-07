@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klassen erstellen", "Klasse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Klassen Übung", "Klassen Übung\Klassen Übung.csproj", "{A1DD8795-8608-4ECB-9D28-733BA19669C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{4416C8E3-9955-4F1D-B6D9-CA5BC83FF639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{4416C8E3-9955-4F1D-B6D9-CA5BC83FF639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tik Tak Toe Array", "Tik Tak Toe Array\Tik Tak Toe Array.csproj", "{43F9FC20-A71A-4937-957B-45E63DFCCCD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{4416C8E3-9955-4F1D-B6D9-CA5BC83FF639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4416C8E3-9955-4F1D-B6D9-CA5BC83FF639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4416C8E3-9955-4F1D-B6D9-CA5BC83FF639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F9FC20-A71A-4937-957B-45E63DFCCCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F9FC20-A71A-4937-957B-45E63DFCCCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F9FC20-A71A-4937-957B-45E63DFCCCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F9FC20-A71A-4937-957B-45E63DFCCCD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
