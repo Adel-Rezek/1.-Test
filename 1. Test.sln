@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tik Tak Toe Array", "Tik Tak Toe Array\Tik Tak Toe Array.csproj", "{43F9FC20-A71A-4937-957B-45E63DFCCCD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Befehle Erklärung", "Befehle Erklärung\Befehle Erklärung.csproj", "{31094FEC-0FB3-4A29-AE30-F2E7DB25A649}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Befehle Erklärung", "Befehle Erklärung\Befehle Erklärung.csproj", "{31094FEC-0FB3-4A29-AE30-F2E7DB25A649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aaaaaaaaaaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaaaaaaaaaa\aaaaaaaaaaaaaaaaaaaaaaaaaaaa.csproj", "{619FD0AC-86D6-4D80-A902-01861C40A019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tic Tac Toe Challenge", "Tic Tac Toe Challenge\Tic Tac Toe Challenge.csproj", "{D810F81D-A1A2-442A-8F25-FEC5412ADACE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{31094FEC-0FB3-4A29-AE30-F2E7DB25A649}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31094FEC-0FB3-4A29-AE30-F2E7DB25A649}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31094FEC-0FB3-4A29-AE30-F2E7DB25A649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619FD0AC-86D6-4D80-A902-01861C40A019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619FD0AC-86D6-4D80-A902-01861C40A019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619FD0AC-86D6-4D80-A902-01861C40A019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619FD0AC-86D6-4D80-A902-01861C40A019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D810F81D-A1A2-442A-8F25-FEC5412ADACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D810F81D-A1A2-442A-8F25-FEC5412ADACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D810F81D-A1A2-442A-8F25-FEC5412ADACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D810F81D-A1A2-442A-8F25-FEC5412ADACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

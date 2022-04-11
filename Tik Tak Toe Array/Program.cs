@@ -84,10 +84,10 @@ do
     if (ersterSpielerBool)
     {
 
-        if (ersterSpielerInt >= 1 && ersterSpielerInt <= 9)    
+        if (ersterSpielerInt >= 1 && ersterSpielerInt <= 9)
         {
             Console.WriteLine();
-            
+
         }
         else
         {
